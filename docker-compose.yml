@@ -1,0 +1,30 @@
+version: '3.4'
+
+networks:
+  backend:
+
+services:
+  BankMandiri:
+    container_name: company-db
+    image: mrc.microsoft.com/mssql/server:2019-latest
+    environment:
+        - ACCEPT_EULA=Y
+        - SA_PASSWORD=password@12345#
+    networks:
+        - backend
+    ports:
+        - 8001:1433 
+  companyservices.api:
+    container_name: company-api
+    image: ${DOCKER_REGISTRY-}companyservicesapi
+    build:
+      context: .
+      dockerfile: CompanyServices.Api\Dockerfile
+    networks:
+        - backend
+    ports:
+        - 8002:80 
+    environment:
+        - DB_HOST=BankMandiri
+        - DB_NAME =Company
+        - DB_SA_PASSWORD=password@12345#
