@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Harfianto .Net\\Mandiri\\TransactionBankServicesSolution\\TransactionServices\\TransactionServices.csproj": {}
+    "D:\\Harfianto .Net\\gitlab\\TransactionBankServicesSolution\\TransactionServices\\TransactionServices.csproj": {}
   },
   "projects": {
-    "D:\\Harfianto .Net\\Mandiri\\TransactionBankServicesSolution\\TransactionServices\\TransactionServices.csproj": {
+    "D:\\Harfianto .Net\\gitlab\\TransactionBankServicesSolution\\TransactionServices\\TransactionServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Harfianto .Net\\Mandiri\\TransactionBankServicesSolution\\TransactionServices\\TransactionServices.csproj",
+        "projectUniqueName": "D:\\Harfianto .Net\\gitlab\\TransactionBankServicesSolution\\TransactionServices\\TransactionServices.csproj",
         "projectName": "TransactionServices",
-        "projectPath": "D:\\Harfianto .Net\\Mandiri\\TransactionBankServicesSolution\\TransactionServices\\TransactionServices.csproj",
+        "projectPath": "D:\\Harfianto .Net\\gitlab\\TransactionBankServicesSolution\\TransactionServices\\TransactionServices.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Harfianto .Net\\Mandiri\\TransactionBankServicesSolution\\TransactionServices\\obj\\",
+        "outputPath": "D:\\Harfianto .Net\\gitlab\\TransactionBankServicesSolution\\TransactionServices\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
