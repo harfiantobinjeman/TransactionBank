@@ -117,7 +117,7 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_URLS: https://+:443;http://+:80
-      DB_HOST: transactiondb
+      DB_HOST: transactionservices
       DB_NAME: dms_Transaction
     image: transactionservices
     networks:

@@ -12,8 +12,8 @@ namespace TransactionServices.Controllers
         private readonly IMongoCollection<Transaction> _transactions;
         public TransactionController()
         {
-            var dbHost = "localhost";
-            var dbName = "dms_Transaction";
+            var dbHost = Environment.GetEnvironmentVariable("DB_HOST");
+            var dbName = Environment.GetEnvironmentVariable("DB_NAME");
             var connectionString = $"mongodb://{dbHost}:27017/{dbName}";
 
             var mongoUrl = MongoUrl.Create(connectionString);

@@ -204,7 +204,7 @@ services:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
       ASPNETCORE_URLS: https://+:443;http://+:80
-      DB_HOST: transactiondb
+      DB_HOST: transactionservices
       DB_NAME: dms_Transaction
       DOTNET_USE_POLLING_FILE_WATCHER: "1"
       NUGET_FALLBACK_PACKAGES: ""

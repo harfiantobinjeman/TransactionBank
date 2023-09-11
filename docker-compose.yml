@@ -13,7 +13,7 @@ services:
     networks:
         - backend
     ports:
-        - 8001:1433
+        - 18001:1433
   companyservices.api:
     container_name: company-api
     image: ${DOCKER_REGISTRY-}companyservicesapi
@@ -23,7 +23,7 @@ services:
     networks:
         - backend
     ports:
-        - 8002:80
+        - 18002:80
     environment:
         - DB_HOST=companydb
         - DB_NAME=company
@@ -32,7 +32,7 @@ services:
     container_name: jenistransaksi-db
     image: mysql:8.1.0
     ports:
-        - 8003:3305 
+        - 18003:3305 
     networks:
         - backend
   jenistransactionservices:
@@ -44,9 +44,31 @@ services:
     networks:
         - backend
     ports:
-        - 8004:80
+        - 18004:80
     environment:
         - DB_HOST=jenistransactiondb
         - DB_NAME=dms_jenisTransaction
         - DB_ROOT_PASSWORD=sa@12345#
+
+  transactiondb:
+       container_name: transaction-db
+       image: mongo
+       ports:
+         - 18005:27017
+       networks:
+         - backend
+
+  transactionservices:
+    container_name: transaction-api
+    image: ${DOCKER_REGISTRY-}transactionservices
+    build:
+      context: .
+      dockerfile: TransactionServices/Dockerfile
+    ports:
+        - 18006:80
+    networks:
+        - backend
+    environment:
+        - DB_HOST=transactionservices
+        - DB_NAME=dms_Transaction
 
