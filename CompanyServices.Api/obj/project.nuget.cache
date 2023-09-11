@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T+F/KuVDwXfseyEzNZSCK5S1kJXB5K4CtzyY7deWsMScZvMaoJ007t/22as2KdUUvcvdtTdMkzATepKd/RBrCg==",
+  "dgSpecHash": "dHr2e2msINnC33FAhp8HlK+gT6qdhhxE6h6vDnqK0lu3zqe7RfuAZSpPgsA7AQVb8R1RsrelJ9pNMunX9SCMfQ==",
   "success": true,
-  "projectFilePath": "D:\\Harfianto .Net\\gitlab\\TransactionBankServicesSolution\\CompanyServices.Api\\CompanyServices.Api.csproj",
+  "projectFilePath": "D:\\Harfianto .Net\\gitlab - Copy\\TransactionBankServicesSolution\\CompanyServices.Api\\CompanyServices.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

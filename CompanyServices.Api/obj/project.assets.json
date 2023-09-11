@@ -2319,11 +2319,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Harfianto .Net\\gitlab\\TransactionBankServicesSolution\\CompanyServices.Api\\CompanyServices.Api.csproj",
+      "projectUniqueName": "D:\\Harfianto .Net\\gitlab - Copy\\TransactionBankServicesSolution\\CompanyServices.Api\\CompanyServices.Api.csproj",
       "projectName": "CompanyServices.Api",
-      "projectPath": "D:\\Harfianto .Net\\gitlab\\TransactionBankServicesSolution\\CompanyServices.Api\\CompanyServices.Api.csproj",
+      "projectPath": "D:\\Harfianto .Net\\gitlab - Copy\\TransactionBankServicesSolution\\CompanyServices.Api\\CompanyServices.Api.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Harfianto .Net\\gitlab\\TransactionBankServicesSolution\\CompanyServices.Api\\obj\\",
+      "outputPath": "D:\\Harfianto .Net\\gitlab - Copy\\TransactionBankServicesSolution\\CompanyServices.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -12,13 +12,21 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContextPool<TransactionDbContext>(option =>
-option.UseSqlServer(builder.Configuration.GetConnectionString("ConnectionString")));
+/*builder.Services.AddDbContextPool<TransactionDbContext>(option =>
+option.UseSqlServer(builder.Configuration.GetConnectionString("ConnectionString")));*/
 //var dbHost = Environment.GetEnvironmentVariable("DB_HOST");
 //var dbName = Environment.GetEnvironmentVariable("DB_NAME");
 //var dbPaswword = Environment.GetEnvironmentVariable("DB_SA_PASSWORD");
 //var connectionstring = $"Data Source={dbHost};Initial Catalog={dbName};User ID=sa;Password={dbPaswword}";
 //builder.Services.AddDbContext<TransactionDbContext>(options =>options.UseSqlServer(connectionstring));
+
+//var dbHost = "LAPTOP-0KHK2IB8\\HARFIANTOO";
+var dbHost = Environment.GetEnvironmentVariable("DB_HOST");
+var dbName = Environment.GetEnvironmentVariable("DB_NAME");
+var dbPassword = Environment.GetEnvironmentVariable("DB_SA_PASSWORD");
+var connectingString = $"Data Source={dbHost};Initial Catalog={dbName};User ID=sa;Password={dbPassword}";
+builder.Services.AddDbContext<TransactionDbContext>(options =>options.UseSqlServer(connectingString));
+
 //add scoped
 builder.Services.AddScoped<ICompany, CompanyService>();
 

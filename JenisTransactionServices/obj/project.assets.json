@@ -2583,11 +2583,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Harfianto .Net\\gitlab\\TransactionBankServicesSolution\\JenisTransactionServices\\JenisTransactionServices.csproj",
+      "projectUniqueName": "D:\\Harfianto .Net\\gitlab - Copy\\TransactionBankServicesSolution\\JenisTransactionServices\\JenisTransactionServices.csproj",
       "projectName": "JenisTransactionServices",
-      "projectPath": "D:\\Harfianto .Net\\gitlab\\TransactionBankServicesSolution\\JenisTransactionServices\\JenisTransactionServices.csproj",
+      "projectPath": "D:\\Harfianto .Net\\gitlab - Copy\\TransactionBankServicesSolution\\JenisTransactionServices\\JenisTransactionServices.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Harfianto .Net\\gitlab\\TransactionBankServicesSolution\\JenisTransactionServices\\obj\\",
+      "outputPath": "D:\\Harfianto .Net\\gitlab - Copy\\TransactionBankServicesSolution\\JenisTransactionServices\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

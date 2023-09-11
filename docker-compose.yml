@@ -1,0 +1,30 @@
+version: '3.4'
+
+networks:
+  backend:
+
+services:
+  companydb:
+    container_name: company-db
+    image: mcr.microsoft.com/mssql/server:2022-preview-ubuntu-22.04
+    environment:
+        - ACCEPT_EULA=Y
+        - SA_PASSWORD=sa@12345#
+    networks:
+        - backend
+    ports:
+        - 8001:1433
+  companyservices.api:
+    container_name: company-api
+    image: ${DOCKER_REGISTRY-}companyservicesapi
+    build:
+      context: .
+      dockerfile: CompanyServices.Api/Dockerfile
+    networks:
+        - backend
+    ports:
+        - 8002:80
+    environment:
+        - DB_HOST=companydb
+        - DB_NAME=company
+        - DB_SA_PASSWORD=sa@12345#

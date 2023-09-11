@@ -15,7 +15,7 @@ namespace CompanyServices.Api.Controllers
             _company = company;
         }
 
-        [HttpGet("company")]
+        [HttpGet("companyGet")]
         public async Task<IActionResult> GetCompany()
         {
             var result  = await _company.GetCompany();

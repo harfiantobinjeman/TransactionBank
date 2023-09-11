@@ -21,3 +21,26 @@ D:\Harfianto .Net\Mandiri\TransactionBankServicesSolution\bin\Debug\CompanyServi
 D:\Harfianto .Net\Mandiri\TransactionBankServicesSolution\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 D:\Harfianto .Net\Mandiri\TransactionBankServicesSolution\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 D:\Harfianto .Net\Mandiri\TransactionBankServicesSolution\obj\Debug\docker-compose.dcproj.CopyComplete
+D:\Harfianto .Net\gitlab - Copy\TransactionBankServicesSolution\bin\Debug\CompanyServices.Api.deps.json
+D:\Harfianto .Net\gitlab - Copy\TransactionBankServicesSolution\bin\Debug\CompanyServices.Api.runtimeconfig.json
+D:\Harfianto .Net\gitlab - Copy\TransactionBankServicesSolution\bin\Debug\appsettings.Development.json
+D:\Harfianto .Net\gitlab - Copy\TransactionBankServicesSolution\bin\Debug\appsettings.json
+D:\Harfianto .Net\gitlab - Copy\TransactionBankServicesSolution\bin\Debug\CompanyServices.Api.exe
+D:\Harfianto .Net\gitlab - Copy\TransactionBankServicesSolution\bin\Debug\CompanyServices.Api.dll
+D:\Harfianto .Net\gitlab - Copy\TransactionBankServicesSolution\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Harfianto .Net\gitlab - Copy\TransactionBankServicesSolution\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Harfianto .Net\gitlab - Copy\TransactionBankServicesSolution\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Harfianto .Net\gitlab - Copy\TransactionBankServicesSolution\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Harfianto .Net\gitlab - Copy\TransactionBankServicesSolution\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Harfianto .Net\gitlab - Copy\TransactionBankServicesSolution\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Harfianto .Net\gitlab - Copy\TransactionBankServicesSolution\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Harfianto .Net\gitlab - Copy\TransactionBankServicesSolution\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\Harfianto .Net\gitlab - Copy\TransactionBankServicesSolution\bin\Debug\Microsoft.Identity.Client.dll
+D:\Harfianto .Net\gitlab - Copy\TransactionBankServicesSolution\bin\Debug\CompanyServices.Api.pdb
+D:\Harfianto .Net\gitlab - Copy\TransactionBankServicesSolution\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+D:\Harfianto .Net\gitlab - Copy\TransactionBankServicesSolution\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+D:\Harfianto .Net\gitlab - Copy\TransactionBankServicesSolution\obj\Debug\docker-compose.dcproj.CopyComplete
+D:\Harfianto .Net\gitlab - Copy\TransactionBankServicesSolution\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Harfianto .Net\gitlab - Copy\TransactionBankServicesSolution\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+D:\Harfianto .Net\gitlab - Copy\TransactionBankServicesSolution\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Harfianto .Net\gitlab - Copy\TransactionBankServicesSolution\bin\Debug\Microsoft.OpenApi.dll
