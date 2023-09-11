@@ -28,3 +28,25 @@ services:
         - DB_HOST=companydb
         - DB_NAME=company
         - DB_SA_PASSWORD=sa@12345#
+  jenistransactiondb:
+    container_name: jenistransaksi-db
+    image: mysql:8.1.0
+    ports:
+        - 8003:3305 
+    networks:
+        - backend
+  jenistransactionservices:
+    container_name: jenisTransaksi-api
+    image: ${DOCKER_REGISTRY-}jenistransactionservices
+    build:
+      context: .
+      dockerfile: JenisTransactionServices/Dockerfile
+    networks:
+        - backend
+    ports:
+        - 8004:80
+    environment:
+        - DB_HOST=jenistransactiondb
+        - DB_NAME=dms_jenisTransaction
+        - DB_ROOT_PASSWORD=sa@12345#
+

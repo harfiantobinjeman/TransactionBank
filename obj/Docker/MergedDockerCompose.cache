@@ -4,8 +4,8 @@ services:
     container_name: company-db
     environment:
       ACCEPT_EULA: "Y"
-      SA_PASSWORD: sa
-    image: mrc.microsoft.com/mssql/server:2019-lates
+      SA_PASSWORD: sa@12345#
+    image: mcr.microsoft.com/mssql/server:2022-preview-ubuntu-22.04
     networks:
       backend: null
     ports:
@@ -21,9 +21,9 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_URLS: https://+:443;http://+:80
-      DB_HOST: LAPTOP-0KHK2IB8\\HARFIANTOO
+      DB_HOST: companydb
       DB_NAME: company
-      DB_SA_PASSWORD: sa
+      DB_SA_PASSWORD: sa@12345#
     image: companyservicesapi
     networks:
       backend: null
@@ -34,6 +34,54 @@ services:
     - mode: ingress
       target: 80
       published: "8002"
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\User\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\User\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+  jenistransactiondb:
+    container_name: jenistransaksi-db
+    image: mysql:8.1.0
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 3305
+      published: "8003"
+      protocol: tcp
+  jenistransactionservices:
+    build:
+      context: D:\Harfianto .Net\gitlab - Copy\TransactionBankServicesSolution
+      dockerfile: JenisTransactionServices/Dockerfile
+    container_name: jenisTransaksi-api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DB_HOST: jenistransactiondb
+      DB_NAME: dms_jenisTransaction
+      DB_ROOT_PASSWORD: sa@12345#
+    image: jenistransactionservices
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 80
+      published: "8004"
       protocol: tcp
     - mode: ingress
       target: 443

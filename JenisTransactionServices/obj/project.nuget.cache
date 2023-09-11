@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4xWX19q+YvYCr05sXSfKYeQP5reDIYqf4pMa8flXWbj6IhNKyuRh/8xBxT1e0GcUhwrWLLDFdNNNaAQckg3pdg==",
+  "dgSpecHash": "TRPRt9yBU7FfGPmRYjo+WCzxELwwmz7XpAV1gtNfSb0JgVb2PCRKZ/aGMRWIKuyrtq4zzl6Euui+jPP8+VjPdA==",
   "success": true,
   "projectFilePath": "D:\\Harfianto .Net\\gitlab - Copy\\TransactionBankServicesSolution\\JenisTransactionServices\\JenisTransactionServices.csproj",
   "expectedPackageFiles": [
@@ -25,6 +25,7 @@
     "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\mysql.data\\8.1.0\\mysql.data.8.1.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\mysql.entityframeworkcore\\6.0.16\\mysql.entityframeworkcore.6.0.16.nupkg.sha512",
